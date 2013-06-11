@@ -7,10 +7,10 @@
       <logicalFolder name="TestFiles"
                      displayName="Arquivos de Teste"
                      projectFiles="true">
-        <itemPath>../ProgramasTeste/BCondition/teste Boudary Condition.cpp</itemPath>
-        <itemPath>../ProgramasTeste/BCondition/teste Dirichlet.cpp</itemPath>
-        <itemPath>../ProgramasTeste/BCondition/teste Neuman.cpp</itemPath>
-        <itemPath>../ProgramasTeste/BCondition/teste Robin.cpp</itemPath>
+        <itemPath>../teste/BCondition/teste Boudary Condition.cpp</itemPath>
+        <itemPath>../teste/BCondition/teste Dirichlet.cpp</itemPath>
+        <itemPath>../teste/BCondition/teste Neuman.cpp</itemPath>
+        <itemPath>../teste/BCondition/teste Robin.cpp</itemPath>
       </logicalFolder>
       <itemPath>../include/BCondition/BoundaryCondition.h</itemPath>
       <itemPath>../include/BCondition/Dirichlet.h</itemPath>
@@ -55,26 +55,6 @@
         <archiverTool>
         </archiverTool>
       </compileType>
-      <item path="../ProgramasTeste/BCondition/teste Boudary Condition.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="../ProgramasTeste/BCondition/teste Dirichlet.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="../ProgramasTeste/BCondition/teste Neuman.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="../ProgramasTeste/BCondition/teste Robin.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
       <item path="../include/BCondition/BoundaryCondition.h"
             ex="false"
             tool="3"
@@ -104,6 +84,26 @@
       </item>
       <item path="../lib/BCondition/Robin.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="../teste/BCondition/teste Boudary Condition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../teste/BCondition/teste Dirichlet.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../teste/BCondition/teste Neuman.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../teste/BCondition/teste Robin.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
     </conf>
     <conf name="Release" type="3">
       <toolsSet>
@@ -128,26 +128,6 @@
         <archiverTool>
         </archiverTool>
       </compileType>
-      <item path="../ProgramasTeste/BCondition/teste Boudary Condition.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="../ProgramasTeste/BCondition/teste Dirichlet.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="../ProgramasTeste/BCondition/teste Neuman.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="../ProgramasTeste/BCondition/teste Robin.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
       <item path="../include/BCondition/BoundaryCondition.h"
             ex="false"
             tool="3"
@@ -171,6 +151,26 @@
       <item path="../lib/BCondition/Neuman.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../lib/BCondition/Robin.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../teste/BCondition/teste Boudary Condition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../teste/BCondition/teste Dirichlet.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../teste/BCondition/teste Neuman.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../teste/BCondition/teste Robin.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
     </conf>
   </confs>

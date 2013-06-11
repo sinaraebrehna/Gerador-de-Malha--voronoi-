@@ -35,14 +35,14 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/_ext/87845532/teste_Boudary_Condition.o \
-	${OBJECTDIR}/_ext/87845532/teste_Dirichlet.o \
-	${OBJECTDIR}/_ext/87845532/teste_Neuman.o \
-	${OBJECTDIR}/_ext/87845532/teste_Robin.o \
 	${OBJECTDIR}/_ext/710661362/BoundaryCondition.o \
 	${OBJECTDIR}/_ext/710661362/Dirichlet.o \
 	${OBJECTDIR}/_ext/710661362/Neuman.o \
-	${OBJECTDIR}/_ext/710661362/Robin.o
+	${OBJECTDIR}/_ext/710661362/Robin.o \
+	${OBJECTDIR}/_ext/406080284/teste_Boudary_Condition.o \
+	${OBJECTDIR}/_ext/406080284/teste_Dirichlet.o \
+	${OBJECTDIR}/_ext/406080284/teste_Neuman.o \
+	${OBJECTDIR}/_ext/406080284/teste_Robin.o
 
 
 # C Compiler Flags
@@ -71,26 +71,6 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libgridvoronoi.a: ${OBJECTFILES}
 	${AR} -rv ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libgridvoronoi.a ${OBJECTFILES} 
 	$(RANLIB) ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libgridvoronoi.a
 
-${OBJECTDIR}/_ext/87845532/teste_Boudary_Condition.o: ../ProgramasTeste/BCondition/teste\ Boudary\ Condition.cpp 
-	${MKDIR} -p ${OBJECTDIR}/_ext/87845532
-	${RM} $@.d
-	$(COMPILE.cc) -g -I../include -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/87845532/teste_Boudary_Condition.o ../ProgramasTeste/BCondition/teste\ Boudary\ Condition.cpp
-
-${OBJECTDIR}/_ext/87845532/teste_Dirichlet.o: ../ProgramasTeste/BCondition/teste\ Dirichlet.cpp 
-	${MKDIR} -p ${OBJECTDIR}/_ext/87845532
-	${RM} $@.d
-	$(COMPILE.cc) -g -I../include -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/87845532/teste_Dirichlet.o ../ProgramasTeste/BCondition/teste\ Dirichlet.cpp
-
-${OBJECTDIR}/_ext/87845532/teste_Neuman.o: ../ProgramasTeste/BCondition/teste\ Neuman.cpp 
-	${MKDIR} -p ${OBJECTDIR}/_ext/87845532
-	${RM} $@.d
-	$(COMPILE.cc) -g -I../include -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/87845532/teste_Neuman.o ../ProgramasTeste/BCondition/teste\ Neuman.cpp
-
-${OBJECTDIR}/_ext/87845532/teste_Robin.o: ../ProgramasTeste/BCondition/teste\ Robin.cpp 
-	${MKDIR} -p ${OBJECTDIR}/_ext/87845532
-	${RM} $@.d
-	$(COMPILE.cc) -g -I../include -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/87845532/teste_Robin.o ../ProgramasTeste/BCondition/teste\ Robin.cpp
-
 ${OBJECTDIR}/_ext/710661362/BoundaryCondition.o: ../lib/BCondition/BoundaryCondition.cpp 
 	${MKDIR} -p ${OBJECTDIR}/_ext/710661362
 	${RM} $@.d
@@ -110,6 +90,26 @@ ${OBJECTDIR}/_ext/710661362/Robin.o: ../lib/BCondition/Robin.cpp
 	${MKDIR} -p ${OBJECTDIR}/_ext/710661362
 	${RM} $@.d
 	$(COMPILE.cc) -g -I../include -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/710661362/Robin.o ../lib/BCondition/Robin.cpp
+
+${OBJECTDIR}/_ext/406080284/teste_Boudary_Condition.o: ../teste/BCondition/teste\ Boudary\ Condition.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/406080284
+	${RM} $@.d
+	$(COMPILE.cc) -g -I../include -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/406080284/teste_Boudary_Condition.o ../teste/BCondition/teste\ Boudary\ Condition.cpp
+
+${OBJECTDIR}/_ext/406080284/teste_Dirichlet.o: ../teste/BCondition/teste\ Dirichlet.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/406080284
+	${RM} $@.d
+	$(COMPILE.cc) -g -I../include -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/406080284/teste_Dirichlet.o ../teste/BCondition/teste\ Dirichlet.cpp
+
+${OBJECTDIR}/_ext/406080284/teste_Neuman.o: ../teste/BCondition/teste\ Neuman.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/406080284
+	${RM} $@.d
+	$(COMPILE.cc) -g -I../include -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/406080284/teste_Neuman.o ../teste/BCondition/teste\ Neuman.cpp
+
+${OBJECTDIR}/_ext/406080284/teste_Robin.o: ../teste/BCondition/teste\ Robin.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/406080284
+	${RM} $@.d
+	$(COMPILE.cc) -g -I../include -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/406080284/teste_Robin.o ../teste/BCondition/teste\ Robin.cpp
 
 # Subprojects
 .build-subprojects:
