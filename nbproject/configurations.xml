@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="88">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Arquivos de Cabeçalho"
+                   projectFiles="true">
+      <logicalFolder name="TestFiles"
+                     displayName="Arquivos de Teste"
+                     projectFiles="true">
+        <itemPath>../ProgramasTeste/BCondition/teste Boudary Condition.cpp</itemPath>
+        <itemPath>../ProgramasTeste/BCondition/teste Dirichlet.cpp</itemPath>
+        <itemPath>../ProgramasTeste/BCondition/teste Neuman.cpp</itemPath>
+        <itemPath>../ProgramasTeste/BCondition/teste Robin.cpp</itemPath>
+      </logicalFolder>
+      <itemPath>../include/BCondition/BoundaryCondition.h</itemPath>
+      <itemPath>../include/BCondition/Dirichlet.h</itemPath>
+      <itemPath>../include/BCondition/Neuman.h</itemPath>
+      <itemPath>../include/BCondition/Robin.h</itemPath>
+      <itemPath>../include/misc/config.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Arquivos de Código-Fonte"
+                   projectFiles="true">
+      <itemPath>../lib/BCondition/BoundaryCondition.cpp</itemPath>
+      <itemPath>../lib/BCondition/Dirichlet.cpp</itemPath>
+      <itemPath>../lib/BCondition/Neuman.cpp</itemPath>
+      <itemPath>../lib/BCondition/Robin.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Arquivos de Recurso"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>../include</pElem>
+          </incDir>
+        </ccTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="../ProgramasTeste/BCondition/teste Boudary Condition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ProgramasTeste/BCondition/teste Dirichlet.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ProgramasTeste/BCondition/teste Neuman.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ProgramasTeste/BCondition/teste Robin.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../include/BCondition/BoundaryCondition.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../include/BCondition/Dirichlet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/BCondition/Neuman.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/BCondition/Robin.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/misc/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/BCondition/BoundaryCondition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/BCondition/Dirichlet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/BCondition/Neuman.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>../include/BCondition</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../lib/BCondition/Robin.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="../ProgramasTeste/BCondition/teste Boudary Condition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ProgramasTeste/BCondition/teste Dirichlet.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ProgramasTeste/BCondition/teste Neuman.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ProgramasTeste/BCondition/teste Robin.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../include/BCondition/BoundaryCondition.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../include/BCondition/Dirichlet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/BCondition/Neuman.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/BCondition/Robin.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/misc/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../lib/BCondition/BoundaryCondition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../lib/BCondition/Dirichlet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/BCondition/Neuman.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../lib/BCondition/Robin.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
